@@ -1,0 +1,100 @@
+.second-section {
+    display: flex;
+    min-height: 442px;
+    background-image: url('./assets/myrobotics.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.second-section__text {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 70px 50px 0 180px;
+    width: 49.89%;
+    font-family: Jubilat, Georgia, sans-serif;
+    color: white;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-shadow: -6px 8px 12px black;
+}
+
+@media only screen and (max-width: 1200px) {
+    .second-section__text {
+        width: 90%;
+        padding: 70px 50px 20px 20px;
+    }
+}
+
+footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+	background-color: #414a4f;
+	padding: 45px 0;
+}
+
+footer ul{
+	display: flex;
+	font-size: 38px;
+}
+
+footer ul li{
+	margin: 0 8px;	
+}
+
+footer ul li:first-child{
+	margin-left: 0;	
+}
+
+footer ul li:last-child{
+	margin-right: 0;	
+}
+
+@media (max-width: 700px){
+	footer{
+		padding: 45px 15px;
+	}
+}
+
+.contact form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.contact form input{
+	padding: 15px;
+	flex: 1;
+	font-size: 18px;
+	color: #555;
+	margin-bottom: 20px;
+	width:60vw;
+}
+
+.contact form .btn{
+	padding: 18px 42px;
+}
+.contact i{
+	font-size: 75px;
+	color: #2196F3;
+	margin-top:25px;
+	margin-bottom: 25px;
+}
+
+@media (max-width: 800px){
+
+	.contact form input{
+		flex-basis: 100%;
+		margin: 0 0 20px 0;
+	}
+
+}
